@@ -3,6 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+# Id:1
+# Blog.create(title: "Refried Beans", content: "Learn how to make ref
+# ried beans! This easy recipe works with dried or canned beans. Creamy and flavor
+# ful, it's a delicious, healthy side dish.")
+
+# Id:2
+# Blog.create(title: "How to Cook Spaghetti Squash", content: "Spaghe
+# tti squash is such a fun, underrated vegetable! Here is my favorite way to cook 
+# it, along with a few tips and recipes.")
+
+# Id:3
+# Blog.create(title: "40 Best Super Bowl Food Ideas", content:"The be
+# st part of Super Bowl Sunday? The snacks! Below, you'll find easy Super Bowl foo
+# d ideas to help you make a crowd-pleasing game day spread.")
 Things you may want to cover:
 
 * Ruby version
