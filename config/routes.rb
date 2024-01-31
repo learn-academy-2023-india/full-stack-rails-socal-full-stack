@@ -7,7 +7,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  get '/blog', to: 'blog#index', as: 'posts'
+  get '/blog', to: 'blog#index', as: 'blogs'
+  # changed alias from "posts" to "blogs" because rails will not recognize another naming convention, so it HAS to be the pluarl version of the name of the Model. received an error saying that the server can't find a "blogs_path". -- updated the views/show.html.erb to "blogs_path"
+  get '/blog/new', to: 'blog#new', as: 'new'
 
-  get '/blog/:id', to: 'blog#show', as: 'post'
+  get '/blog/:id', to: 'blog#show', as: 'blog'
+
+  
+
 end

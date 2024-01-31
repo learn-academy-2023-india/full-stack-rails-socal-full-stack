@@ -3,10 +3,10 @@
   <% @blog.each do |post|%>
     <li>
     </p>
-      <%= link_to "Title:  #{post.title}", post_path(post) %>
+      <%= link_to "Title:  #{post.title}", blog_path(post) %>
       </p> 
       Content: <%= post.content %>
     </li>
   <% end %>
 </ul>
-
+<%= link_to 'Create a new blog post', new_path %>
