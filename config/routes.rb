@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/blog', to: 'blog#index', as: 'blogs'
   # changed alias from "posts" to "blogs" because rails will not recognize another naming convention, so it HAS to be the pluarl version of the name of the Model. received an error saying that the server can't find a "blogs_path". -- updated the views/show.html.erb to "blogs_path"
   get '/blog/new', to: 'blog#new', as: 'new'
+  post '/blog', to: 'blog#create'
 
   get '/blog/:id', to: 'blog#show', as: 'blog'
 
