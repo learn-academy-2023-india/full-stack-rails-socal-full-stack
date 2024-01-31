@@ -3,7 +3,7 @@
   <% @blog.each do |post|%>
     <li>
     </p>
-      Title: <%= post.title %>
+      <%= link_to "Title:  #{post.title}", post_path(post) %>
       </p> 
       Content: <%= post.content %>
     </li>
